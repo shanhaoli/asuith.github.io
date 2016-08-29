@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="水题,NEUQ," />
 
 
 
@@ -84,19 +84,19 @@
 
 
 
-<meta name="description" content="WishI sincerely hope this first artice would not be the last article on this little blog.
-And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 for your detailed tutorial. Thank y">
+<meta name="description" content="题目链接
+题目大意输出：1+2!+3!+4!+…+30!。格式：科学计数法，保留两位小数。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello">
-<meta property="og:url" content="http://suith27.win/2016/08/17/Hello/index.html">
+<meta property="og:title" content="NEUQ 1010: C基础-阶乘数列">
+<meta property="og:url" content="http://suith27.win/2016/08/29/NEUQ-1010-C基础-阶乘数列/index.html">
 <meta property="og:site_name" content="Suith27's Blog">
-<meta property="og:description" content="WishI sincerely hope this first artice would not be the last article on this little blog.
-And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 for your detailed tutorial. Thank y">
-<meta property="og:updated_time" content="2016-08-24T08:51:30.574Z">
+<meta property="og:description" content="题目链接
+题目大意输出：1+2!+3!+4!+…+30!。格式：科学计数法，保留两位小数。">
+<meta property="og:updated_time" content="2016-08-29T11:53:55.696Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello">
-<meta name="twitter:description" content="WishI sincerely hope this first artice would not be the last article on this little blog.
-And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 for your detailed tutorial. Thank y">
+<meta name="twitter:title" content="NEUQ 1010: C基础-阶乘数列">
+<meta name="twitter:description" content="题目链接
+题目大意输出：1+2!+3!+4!+…+30!。格式：科学计数法，保留两位小数。">
 
 
 
@@ -117,9 +117,9 @@ And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 f
 
 
 
-  <link rel="canonical" href="http://suith27.win/2016/08/17/Hello/"/>
+  <link rel="canonical" href="http://suith27.win/2016/08/29/NEUQ-1010-C基础-阶乘数列/"/>
 
-  <title> Hello | Suith27's Blog </title>
+  <title> NEUQ 1010: C基础-阶乘数列 | Suith27's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -249,7 +249,7 @@ And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 f
             
             
               
-                Hello
+                NEUQ 1010: C基础-阶乘数列
               
             
           </h1>
@@ -261,8 +261,8 @@ And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 f
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-17T16:27:42+08:00" content="2016-08-17">
-              2016-08-17
+            <time itemprop="dateCreated" datetime="2016-08-29T19:34:43+08:00" content="2016-08-29">
+              2016-08-29
             </time>
           </span>
 
@@ -289,9 +289,11 @@ And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 f
       
 
       
-        <h1 id="Wish"><a href="#Wish" class="headerlink" title="Wish"></a>Wish</h1><p>I sincerely hope this first artice would not be the last article on this little blog.</p>
-<h1 id="And-Thanks"><a href="#And-Thanks" class="headerlink" title="And Thanks"></a>And Thanks</h1><p>Thank you Tommy Chen and other contributer to hexo, thank you <a href="http://zhufanjia.com/" target="_blank" rel="external">青山</a> for your detailed tutorial. Thank you Jasmine for your everyday support. And of course thanks to many others like the Gayhub, themes’s creator and so forth.<br>Love you all! <em>Especially you, Jasmine.</em></p>
-
+        <p><a href="http://ncc.neuq.edu.cn/OJ/problem.php?id=1010" target="_blank" rel="external">题目链接</a></p>
+<h1 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h1><p>输出：1+2!+3!+4!+…+30!。<br>格式：科学计数法，保留两位小数。<br><a id="more"></a></p>
+<h1 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h1><p>unsigned long long 都会炸掉，别问我怎么知道的。<br>float 却不会，毕竟伸缩自如，只留总要的头部和长度，记不清的可以补一补浮点型数据如何储存的。<br>用一个 fo r循环就可以解决，毕竟  (n-1)! 跟 n! 只差一个 n。<br>至于输出格式，C语言可以用 %e,C++可以用 setprecision(2) 和 scientific。</p>
+<h1 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h1><p>答案是2.74e+32，直接输出应该也是可以的。<br>又刷了一边1001-1005的a+b基础题，感觉自己有点弱智，还是不放上来代码了，要不然太水，虽然这道也挺水的。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">float</span> sum=<span class="number">0</span>,tmp=<span class="number">1.0</span>;</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">30</span>;i++)</div><div class="line">        &#123;</div><div class="line">            tmp*=i;</div><div class="line">            sum+=tmp;</div><div class="line">        &#125;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%.2e\n"</span>,sum);</div><div class="line">	<span class="comment">//or cout&lt;&lt;setprecision(2)&lt;&lt;scientific&lt;&lt;sum&lt;&lt;endl;</span></div><div class="line"></div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
       
     </div>
 
@@ -311,18 +313,26 @@ And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 f
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/水题/" rel="tag">#水题</a>
+          
+            <a href="/tags/NEUQ/" rel="tag">#NEUQ</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/08/24/UVa489-Hangman-Judge/" rel="next" title="UVa489 Hangman Judge">
+                <i class="fa fa-chevron-left"></i> UVa489 Hangman Judge
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/08/24/UVa489-Hangman-Judge/" rel="prev" title="UVa489 Hangman Judge">
-                UVa489 Hangman Judge <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -429,7 +439,7 @@ And ThanksThank you Tommy Chen and other contributer to hexo, thank you 青山 f
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Wish"><span class="nav-number">1.</span> <span class="nav-text">Wish</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#And-Thanks"><span class="nav-number">2.</span> <span class="nav-text">And Thanks</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#题目大意"><span class="nav-number">1.</span> <span class="nav-text">题目大意</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#思路"><span class="nav-number">2.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PS"><span class="nav-number">3.</span> <span class="nav-text">PS</span></a></li></ol></div>
             
           </div>
         </section>
