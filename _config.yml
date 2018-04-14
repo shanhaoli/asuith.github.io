@@ -24,7 +24,7 @@ github_username:  Suith27
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: minima
 plugins:
    - jekyll-feed
 
