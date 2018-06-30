@@ -1,3 +1,3 @@
 # suith27.github.io
-Blog
+Yet Another Suith's Blog
 @https://suith.xyz
