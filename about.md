@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: About Suith
 permalink: /about/
 ---
 
+- Suith
 - Not a dog.
-- Currently a student in his senior year.
-- Trying to find a position in Shenzhen.
+- Earned a position in Shenzhen.
 - Interested in Computer Vision and Artificial Intelligence in general.
-
+- Trying to survive three postgraduate years.
