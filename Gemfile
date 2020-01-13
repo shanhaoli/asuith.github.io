@@ -30,3 +30,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 
 gem "ffi", ">= 1.9.24"
+
+
+# For tracking
+gem 'jekyll-analytics'
