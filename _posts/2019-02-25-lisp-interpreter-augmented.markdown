@@ -6,7 +6,10 @@ categories: cs
 ---
 如何写一个 Lisp 的解释器 (*Interpreter*)？这个问题很好解决，只要找一个好的教程，发挥自己的聪明才智，一步一步地坚持做，最终就能完成。
 
+<!--more-->
+
 最近我看了 Peter Norvig 写成的 [(How to Write a (Lisp) Interpreter (in Python))](http://www.norvig.com/lispy.html) ，然后仿造着也写了一个，并且在原有的基础上添加了关键词 `cond` 与 `let` 的功能。 
+
 
 # 原文章介绍
 

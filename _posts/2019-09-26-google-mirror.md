@@ -7,6 +7,8 @@ categories: cs
 
 最近有国家活动，我虽然没有收到邀请，但是还是受了很大影响，比如许多去谷歌玩耍的方法都失效了。今天突然想到有谷歌镜像这种东西的存在。
 
+<!--more-->
+
 而 GitHub 已经有人实现了 Google 的反向代理 [zmirror](https://github.com/aploium/zmirror)，自己无脑直接跑起来就好。于是也跟着建了一个镜像站，方便学习查资料。
 
 地址：[gg.suith.xyz](https://gg.suith.xyz/)
