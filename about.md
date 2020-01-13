@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: article
 title: About Suith
-permalink: /about/
+permalink: /about
 ---
 
 - Suith
