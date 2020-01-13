@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: '如何在南燕更好地生活和学习？(汇总）'
 date: '2019-09-26 14:20:00 +0800'
 categories: life

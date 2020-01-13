@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: '如何用 Python 写一个 Lisp 的解释器'
 date: '2019-02-25 15:48:30 +0800'
 categories: cs

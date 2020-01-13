@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: '建一个 Google 镜像站'
 date: '2019-09-26 20:33:04 +0800'
 categories: cs

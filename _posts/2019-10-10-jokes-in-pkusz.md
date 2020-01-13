@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: '如何在南燕更好地讲笑话？'
 date: '2019-10-10 14:36:00 +0800'
 categories: life

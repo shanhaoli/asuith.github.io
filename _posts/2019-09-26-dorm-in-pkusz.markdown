@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: '如何在南燕更好地在寝室生活？'
 date: '2019-09-26 14:28:00 +0800'
 categories: life

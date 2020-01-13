@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: '足球退役'
 date: '2018-04-14 15:02:00 +0800'
 categories: life
