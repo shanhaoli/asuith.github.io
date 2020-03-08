@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "如何在南燕更好地取火车票"
+title: "如何在南燕更好地取火车票？"
 keywords: ""
 description: "你也抢不到回家的车票吗？那就不用担心取票问题了哦。"
 tagline: ""

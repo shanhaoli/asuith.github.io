@@ -10,7 +10,7 @@ categories: life
 
 - [如何在南燕更好地在寝室生活？](/dorm-in-pkusz)
 - [如何在南燕更好地使用网络？](internet-in-pkusz)
-- [如何在南燕更好地讲笑话?](jokes-in-pkusz)
-- [如何在南燕更好地取火车票](train-tickets-in-pkusz)
+- [如何在南燕更好地讲笑话？](jokes-in-pkusz)
+- [如何在南燕更好地取火车票？](train-tickets-in-pkusz)
 
 <!--more-->
