@@ -3,6 +3,7 @@ layout: article
 title: '如何在南燕更好地讲笑话？'
 date: '2019-10-10 14:36:00 +0800'
 categories: life
+comment: true
 ---
 
 > 仿造[苏联政治笑话](https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94%E6%94%BF%E6%B2%BB%E7%AC%91%E8%AF%9D)，炮制了几则南燕版笑话。
