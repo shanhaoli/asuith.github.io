@@ -1,10 +1,10 @@
 ---
 layout: article
 keywords: NPS, SSH, Jupyter, TensorBoard
-title: "NPS进行内网穿透，以便使用SSH、Jupyter以及TensorBoard"
+title: "使用NPS内网穿透，方便炼丹"
 description: "你实验室的服务器也没有公网IP吗？"
 date: "2020-05-21 15:15:53 +0800"
-categories: cs, life 
+categories: cs
 ---
 
 > {{ page.description }}
@@ -13,7 +13,7 @@ categories: cs, life
 
 照例先骂一波深圳大学城：VPN难用的要死，服务器也不给分公网IP。有道是，能力越大，责任越大；权利越多，责任越少。
 
-不过有山就有路，我们可以使用内网穿透这种工具来进行，唔，内网穿透。常用的内网穿透工具有[frp](https://github.com/fatedier/frp)以及[NPS](https://github.com/ehang-io/nps)。frp配置复杂，很容易就不知道自己哪里出错了，不过网上已有较多参考资源。NPS配置更为方便，所以本文使用NPS来进行内网穿透，并且将SSH、Jupyter以及TensorBoard做为例子。
+不过有山就有路，我们可以使用内网穿透这种工具来进行，唔，内网穿透。常用的内网穿透工具有[frp](https://github.com/fatedier/frp)以及[NPS](https://github.com/ehang-io/nps)。frp配置复杂，很容易就不知道自己哪里出错了，不过网上已有较多参考资源。NPS配置更为方便，所以本文使用NPS来进行内网穿透，方便~~炼丹~~科研工作，并且将深度学习中常用的SSH、Jupyter以及TensorBoard做为使用例子。
 
 ## 原理、术语及要求
 
