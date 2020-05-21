@@ -1,7 +1,7 @@
 ---
 layout: article
 keywords: NPS, SSH, Jupyter, TensorBoard
-title: "使用NPS内网穿透，方便炼丹"
+title: "使用NPS内网穿透，方便炼丹科研"
 description: "你实验室的服务器也没有公网IP吗？"
 date: "2020-05-21 15:15:53 +0800"
 categories: cs
