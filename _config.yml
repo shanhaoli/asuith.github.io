@@ -118,22 +118,22 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
-#   ## Disqus
-#   disqus:
-#     shortname: # the Disqus shortname for the site
+  ## Disqus
+  disqus:
+    shortname: suith # the Disqus shortname for the site
 
 #   ## Gitalk
 #   # please refer to https://github.com/gitalk/gitalk for more info.
-  gitalk:
-    clientID    : "8199a495a0205aabb422" # GitHub Application Client ID
-    clientSecret: "754f62944c8538be8e55aeff64b5d9e2e85d5f66" # GitHub Application Client Secret
-    repository  : "gitalk" # GitHub repo
-    owner       : "asuith" # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
-      - "asuith"
+  # gitalk:
+  #   clientID    : "8199a495a0205aabb422" # GitHub Application Client ID
+  #   clientSecret: "754f62944c8538be8e55aeff64b5d9e2e85d5f66" # GitHub Application Client Secret
+  #   repository  : "gitalk" # GitHub repo
+  #   owner       : "asuith" # GitHub repo owner
+  #   admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+  #     # - your GitHub Id
+  #     - "asuith"
 
 #   ## Valine
 #   # please refer to https://valine.js.org/en/ for more info.
