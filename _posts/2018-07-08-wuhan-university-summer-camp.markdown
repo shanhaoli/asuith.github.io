@@ -3,6 +3,7 @@ layout: article
 title: '2018年武汉大学计算机学院夏令营经验'
 date: '2018-07-08 21:00:00 +0800'
 categories: life
+key: wuhan-university-summer-camp
 ---
 
 ![国立武汉大学正门]({{"/assets/images/IMG_20180707_115928-01.jpeg"}})

@@ -3,6 +3,7 @@ layout: article
 title: '建一个 Google 镜像站'
 date: '2019-09-26 20:33:04 +0800'
 categories: cs
+key: google-mirror
 ---
 
 最近有国家活动，我虽然没有收到邀请，但是还是受了很大影响，比如许多去谷歌玩耍的方法都失效了。今天突然想到有谷歌镜像这种东西的存在。

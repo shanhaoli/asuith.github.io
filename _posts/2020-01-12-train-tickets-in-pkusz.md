@@ -6,7 +6,9 @@ description: "你也抢不到回家的车票吗？那就不用担心取票问题
 tagline: ""
 date: '2020-01-12 20:34:55 +0800'
 category: life
+key: train-tickets-in-pkusz
 ---
+
 > {{ page.description }}
 
 20年春节的车票，比往年难抢一些。而那些抢到票的同学，又遇到了别样的难题——票是买到了，车却上不了。

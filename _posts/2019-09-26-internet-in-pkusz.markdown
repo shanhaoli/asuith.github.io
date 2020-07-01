@@ -3,6 +3,7 @@ layout: article
 title: '如何在南燕更好地使用网络？'
 date: '2019-09-26 14:28:00 +0800'
 categories: life
+key: internet-in-pkusz
 ---
 
 > 这么巧，你寝室也连接了信息高速公路？

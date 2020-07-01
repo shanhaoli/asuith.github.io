@@ -4,8 +4,10 @@ title: '如何在南燕更好地在寝室生活？'
 date: '2019-09-26 14:28:00 +0800'
 categories: life
 description: 但愿你不在 5 号楼住。
+key: dorm-in-pkusz
 ---
 
+> {{ page.description }}
 
 ## 如何在寝室安装洗衣机？
 

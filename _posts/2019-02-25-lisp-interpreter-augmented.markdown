@@ -3,6 +3,7 @@ layout: article
 title: '如何用 Python 写一个 Lisp 的解释器'
 date: '2019-02-25 15:48:30 +0800'
 categories: cs
+key: lisp-interpreter-augmented
 ---
 如何写一个 Lisp 的解释器 (*Interpreter*)？这个问题很好解决，只要找一个好的教程，发挥自己的聪明才智，一步一步地坚持做，最终就能完成。
 

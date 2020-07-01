@@ -5,6 +5,7 @@ title: "苏联笑话新编：实验室篇"
 description: "苏联笑话太好笑，笑着笑着就哭出声。"
 keywords: "joke"
 categories: cs, life 
+key: jokes-in-pkusz-lab
 ---
 
 > {{ page.description }}
