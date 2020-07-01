@@ -15,6 +15,7 @@ title: ""
 description: ""
 keywords: ""
 categories: cs, life 
+key: {title}
 ---
 
 > {{ page.description }}
@@ -34,7 +35,7 @@ if __name__ == '__main__':
     title = sys.argv[1] # example 'this is the title'
     titleWithDash = "-".join(title.split())
     
-    post = post_template.format(date=date, time=time)
+    post = post_template.format(date=date, time=time, title=titleWithDash)
     file_name = file_name_template.format(date=date, title=titleWithDash)
     # print(post)
     # print(file_name)
