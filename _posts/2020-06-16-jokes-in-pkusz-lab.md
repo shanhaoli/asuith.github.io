@@ -1,7 +1,7 @@
 ---
 layout: article
 date: "2020-06-16 14:14:40 +0800"
-title: "苏联笑话新编：实验室篇"
+title: "如何在南燕更好地讲实验室笑话"
 description: "苏联笑话太好笑，笑着笑着就哭出声。"
 keywords: "joke"
 categories: cs, life 
