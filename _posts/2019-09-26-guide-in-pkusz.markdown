@@ -14,7 +14,7 @@ key: guide-in-pkusz
 - [如何在南燕更好地使用网络？](/internet-in-pkusz)
 - [如何在南燕更好地讲笑话？](/jokes-in-pkusz)
 - [如何在南燕更好地取火车票？](/train-tickets-in-pkusz)
-- [如何在南燕更好地讲实验室笑话](/jokes-in-pkusz-lab)
+- [如何在南燕更好地讲实验室笑话？](/jokes-in-pkusz-lab)
 
 
 官方的[走进南燕](http://www.pkusz.edu.cn/nanyan/)也有很多新生可能有用的信息。
